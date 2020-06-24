@@ -1,8 +1,10 @@
 {
-    "name": "suyisong/dempo",
-    "description": "test composer",
+    "name": "suyisong/demo",
+    "description": "composer test",
     "type": "project",
+    "require": {
+        "houdunwang/hdphp": "*"
+    },
     "license": "mit",
-    "minimum-stability": "dev",
-    "require": {}
+    "minimum-stability": "dev"
 }
