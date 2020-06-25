@@ -3,8 +3,18 @@
     "description": "composer test",
     "type": "project",
     "require": {
-        "houdunwang/hdphp": "*"
+        "houdunwang/hdphp": "*",
+        "gregwar/captcha": "dev-master"
     },
     "license": "mit",
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "autoload": {
+        "files": [
+            "core/functions.php"
+        ],
+        "psr-4": {
+            "core\\": "core",
+            "web\\": "web"
+        }
+    }
 }

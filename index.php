@@ -1,4 +1,13 @@
 <?php
-//入口文件
+//namespace web\controller;
 
-echo "入口文件";
+/*class web{
+    public function show(){
+        echo "show controller";
+    }
+}*/
+//function __autoload(){}自动加载
+//spl_autoload_register()
+include "vendor/autoload.php";
+
+core\BootStrap::run();
